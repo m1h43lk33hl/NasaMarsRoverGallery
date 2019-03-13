@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_id_string">Afbeelding ID:</string>
+    <string name="pref_lang_check">Gebruik systeemtaal</string>
+    <string name="pref_lang_label_nl">Nederlands</string>
+    <string name="pref_lang_label_en">Engels</string>
+    <string name="settings_string">Instellingen</string>
+    <string name="pref_lang_screen">Taal</string>
+    <string name="pref_lang_label">Selecteer taal</string>
+    <string name="pref_rover_label">Standaard rover</string>
+    <string name="toast_download_succes">"Aantal afbeeldingen: "</string>
+    <string name="toast_download_fail">Download gefaald!</string>
+</resources>

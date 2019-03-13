@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:key="rootKey"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_rover_list_default"
+        android:entries="@array/pref_rover_list_labels"
+        android:entryValues="@array/pref_rover_list_values"
+        android:key="@string/pref_rover_list_key"
+        android:title="@string/pref_rover_label"/>
+
+    <PreferenceScreen
+        android:key="@string/pref_lang_screen_key"
+        android:title="@string/pref_lang_screen"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <CheckBoxPreference
+            android:key="@string/pref_lang_check_key"
+            android:title="@string/pref_lang_check" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_lang_label_en"
+            android:entries="@array/pref_lang_list_labels"
+            android:entryValues="@array/pref_lang_list_values"
+            android:key="@string/pref_lang_list_key"
+            android:title="@string/pref_lang_label"/>
+    </PreferenceScreen>
+
+</PreferenceScreen>

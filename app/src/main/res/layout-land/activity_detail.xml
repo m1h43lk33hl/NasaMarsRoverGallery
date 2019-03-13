@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+    <ImageView
+        android:id="@+id/detail_iv"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        >
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_rover_name"
+        android:textColor="@color/colorWhite"
+        android:text="Rover-name: "
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/tv_rover_name_var"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/tv_rover_name"
+        android:layout_toEndOf="@id/tv_rover_name" />
+
+    <TextView
+        android:id="@+id/tv_sol_day"
+        android:textColor="@color/colorWhite"
+        android:text="Sol-day: "
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_rover_name_var"
+        />
+    <TextView
+        android:id="@+id/tv_sol_day_var"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/tv_sol_day"
+        android:layout_below="@id/tv_rover_name_var"
+        android:layout_toEndOf="@id/tv_sol_day" />
+
+    <TextView
+        android:id="@+id/tv_earth_date"
+        android:textColor="@color/colorWhite"
+        android:text="Earth-date: "
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_sol_day_var"
+        />
+    <TextView
+        android:id="@+id/tv_earth_date_var"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/tv_earth_date"
+        android:layout_below="@id/tv_sol_day_var"
+        android:layout_toEndOf="@id/tv_earth_date" />
+
+    <TextView
+        android:id="@+id/tv_full_camera_name"
+        android:textColor="@color/colorWhite"
+        android:text="Full-camera-name: "
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_earth_date_var"
+        />
+    <TextView
+        android:id="@+id/tv_full_camera_name_var"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/tv_full_camera_name"
+        android:layout_below="@id/tv_earth_date_var"
+        android:layout_toEndOf="@id/tv_full_camera_name" />
+</RelativeLayout>

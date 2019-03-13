@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Language list labels-->
+    <array name="pref_lang_list_labels">
+        <item>@string/pref_lang_label_nl</item>
+        <item>@string/pref_lang_label_en</item>
+    </array>
+
+    <!--Language list values-->
+    <array name="pref_lang_list_values">
+        <item>@string/pref_lang_list_nl_value</item>
+        <item>@string/pref_lang_list_en_value</item>
+    </array>
+
+    <!--Rover list labels-->
+    <array name="pref_rover_list_labels">
+        <item>@string/pref_rover_label_curiosity</item>
+        <item>@string/pref_rover_label_opportunity</item>
+        <item>@string/pref_rover_label_spirit</item>
+    </array>
+
+    <!--Rover list values-->
+    <array name="pref_rover_list_values">
+        <item>@string/pref_rover_list_curiosity_value</item>
+        <item>@string/pref_rover_list_opportunity_value</item>
+        <item>@string/pref_rover_list_spirit_value</item>
+    </array>
+
+</resources>

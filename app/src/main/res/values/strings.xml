@@ -1,0 +1,46 @@
+<resources>
+
+    <!--Application-->
+    <string name="app_name" translatable="false">NASAapp</string>
+    <string name="image_id_string">"Image ID: "</string>
+    <string name="toast_download_succes">"Total images: "</string>
+    <string name="toast_download_fail">Download failed!</string>
+
+    <!--Menu-->
+    <string name="settings_string">Settings</string>
+
+    <!--Language settings-->
+    <string name="pref_lang_screen">Language</string>
+    <string name="pref_lang_screen_key" translatable="false">pref_lang_screen</string>
+
+    <string name="pref_lang_check">Use system language</string>
+    <string name="pref_lang_check_def_value" translatable="false">true</string>
+    <string name="pref_lang_check_key" translatable="false">pref_lang_check_key</string>
+
+    <string name="pref_lang_label">Select language</string>
+    <string name="pref_lang_list_key" translatable="false">pref_lang_list_key</string>
+    <string name="pref_lang_label_nl">Dutch</string>
+    <string name="pref_lang_label_en">English</string>
+    <string name="pref_lang_list_nl_value" translatable="false">nl</string>
+    <string name="pref_lang_list_en_value" translatable="false">en</string>
+
+    <!--Rover names-->
+    <string name="rover_name_curiosity" translatable="false">Curiosity</string>
+    <string name="rover_name_opportunity" translatable="false">Opportunity</string>
+    <string name="rover_name_spirit" translatable="false">Spirit</string>
+
+    <!--Rover list settings-->
+    <string name="pref_rover_label">Default rover</string>
+
+    <string name="pref_rover_list_key" translatable="false">pref_rover_list_key</string>
+    <string name="pref_rover_list_default" translatable="false">@string/rover_name_curiosity</string>
+
+    <string name="pref_rover_label_curiosity" translatable="false">@string/rover_name_curiosity</string>
+    <string name="pref_rover_label_opportunity" translatable="false">@string/rover_name_opportunity</string>
+    <string name="pref_rover_label_spirit" translatable="false">@string/rover_name_spirit</string>
+
+    <string name="pref_rover_list_curiosity_value" translatable="false">@string/rover_name_curiosity</string>
+    <string name="pref_rover_list_opportunity_value" translatable="false">@string/rover_name_opportunity</string>
+    <string name="pref_rover_list_spirit_value" translatable="false">@string/rover_name_spirit</string>
+
+</resources>
