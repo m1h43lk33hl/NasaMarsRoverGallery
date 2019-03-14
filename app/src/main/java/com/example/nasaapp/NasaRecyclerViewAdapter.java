@@ -61,24 +61,23 @@ public class NasaRecyclerViewAdapter extends RecyclerView.Adapter<NasaRecyclerVi
 
         View.OnClickListener listener = new View.OnClickListener()
         {
-
             @Override
             public void onClick(View v) {
+                // Calls MainActivity onItemClick
                 onItemClickListener.onItemClick(roverItem);
             }
         };
 
-        // Set listeners
+        // Set listeners of components
         itemViewHolder.imageView.setOnClickListener(listener);
         itemViewHolder.itemListTextView.setOnClickListener(listener);
 
     }
 
-    // Interface to overwrite onItemClickListener
+    // Interface onItemClickListener
     public interface OnItemClickListener {
         void onItemClick(RoverItem roverItem);
     }
-
 
     @Override
     public int getItemCount() {

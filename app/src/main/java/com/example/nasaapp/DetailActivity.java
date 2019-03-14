@@ -97,6 +97,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
 
+
                 intent.setType("image/*");
                 intent.putExtra(Intent.EXTRA_STREAM, getLocalBitmapUri(bitmap));
 

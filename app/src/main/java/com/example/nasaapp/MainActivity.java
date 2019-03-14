@@ -22,10 +22,6 @@ import com.example.nasaapp.Utilities.RoverNames;
 import java.util.ArrayList;
 import java.util.List;
 
-// TODO
-// DONE: Implicit intent
-// LoaderManager
-
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private NasaRecyclerViewAdapter mAdapter;
